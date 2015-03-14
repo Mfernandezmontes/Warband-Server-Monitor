@@ -27,38 +27,10 @@ $(document).ready(function(){
 
 
 
-/*
-function cargar(){
-    // server status
-    var statusContener = $('#status');
-
-    $.ajax({
-        url: 'curlsimple.php',
-        datType: 'json',
-        success: function(data){
-
-            json = JSON.parse(data);
-
-            var mostar = '';
-            mostar += 'Nombre server: ' + json["Name"] + '<br>';
-            mostar += 'Modulo: ' + json["ModuleName"] + '<br>';
-            mostar += 'Numero de jugadores: ' + json["NumberOfActivePlayers"] + '<br>';
-            mostar += 'Mapa: ' + json["MapName"] + '<br>';
-
-            statusContener.html('<ul>'+mostar+'</ul>')
-
-
-            //statusContener.html('<ul>'+cadena+'</ul>')
-        }
-    })
-}
-*/
-
 
 function getInfo(){
-
-  // var datosForm = $("#formulario").serialize();
-    var statusContener = $('#status');
+    
+    var statusContainer = $('#status');
 
     $.ajax({
         url: 'getinfoserver.php',
@@ -75,10 +47,8 @@ function getInfo(){
             mostar += 'Numero de jugadores: ' + json["NumberOfActivePlayers"] + '<br>';
             mostar += 'Mapa: ' + json["MapName"] + '<br>';
 
-            statusContener.html('<ul>'+mostar+'</ul>')
+            statusContainer.html('<ul>'+mostar+'</ul>')
 
-
-            //statusContener.html('<ul>'+cadena+'</ul>')
         }
     })
 }
