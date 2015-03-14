@@ -4,7 +4,7 @@
 
 
 * Version 0.1
-* Permite capurar y visualizar la información del servidor de warband mediante PHP y mostrarla con Ajax
+* Permite capturar y visualizar la información del servidor de warband mediante PHP y mostrarla con Ajax
 
 ### ¿Que necesito? ###
 
