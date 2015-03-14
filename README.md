@@ -1,29 +1,14 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### ¿Pero que es esto!!!? ###
 
-### What is this repository for? ###
 
-* Quick summary
 * Version 0.1
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Permite capurar y visualizar la información del servidor de warband mediante 
 
-### How do I get set up? ###
+### ¿Que necesito? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* 1..N Servidor/es de Warband corriendo 
+* IP y Puerto del mismo
+* Servidor con PHP
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
